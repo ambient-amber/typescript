@@ -66,7 +66,7 @@ let alias_user: User = {
     name: 'Anton',
     age: 32,
     skills: ['back', 'front']
-}
+};
 
 // Пересечения (intersections)
 type Role = {
@@ -81,7 +81,7 @@ let intersection_alias_user: UserRole = {
     age: 32,
     skills: ['back', 'front'],
     id: 1
-}
+};
 
 // В таком случае name будет перезаписываться, лучше сделать
 type NamedUserRole = {
@@ -99,7 +99,7 @@ let named_alias_user: NamedUserRole = {
         id: 1,
         name: 'admin'
     }
-}
+};
 
 // ------------ Индексные свойства ------------
 type UserDictionaryType = {
